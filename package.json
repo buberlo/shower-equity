@@ -1,0 +1,28 @@
+{
+  "name": "shower-deeds",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A mobile household app that auctions bathroom shower slots like micro real estate.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "doctor": "react-native doctor"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.74.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@react-native-community/cli": "14.0.0",
+    "@react-native-community/cli-platform-android": "14.0.0",
+    "@react-native-community/cli-platform-ios": "14.0.0",
+    "@react-native/babel-preset": "0.74.87",
+    "@react-native/metro-config": "0.74.87"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
